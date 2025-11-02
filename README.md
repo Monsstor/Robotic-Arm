@@ -19,7 +19,7 @@ The entire system was developed using **3D-printed components** for rapid protot
     * Servo Motors: MG996R (for high torque joints).
     * Motor Driver: PCA9685 16-channel 12-bit PWM Servo Driver.
     * Actuator: NEMA-17 Stepper Motor (for the base or another key joint).
-    * Sensor Input: MPU6050 Accelerometer/Gyroscope Sensor (Likely for gesture control or position feedback).
+    * Controller: IR sensor and a random ir remote we found.
 * **Applications:** Automation, pick-and-place, educational platform for robotics and embedded systems.
 
 ## 📖 Table of Contents
@@ -48,7 +48,7 @@ To replicate this project, you will need the following key components:
 | NEMA-17 Stepper Motor | 1 | High-precision joint (e.g., Base) |
 | PCA9685 Servo Driver | 1 | PWM signal management |
 | 3D Printed Parts | 1 set | Mechanical structure of the arm |
-
+| IR Sensor & remote | 1 set | Controlling the arm |
 
 ## 💻 Software & Installation
 
